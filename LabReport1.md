@@ -8,7 +8,7 @@ For each of the commands cd, ls, and cat
 ---
 ***cd:***
 
-1.
+1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20155221.jpg?raw=true)
 
 Explanation:
 
