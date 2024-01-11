@@ -13,9 +13,9 @@ For each of the commands cd, ls, and cat
 
 Explanation: executing cd with no arguments does nothing because its suposed to change diretory but with no argument there is no directory to change to. This is not an error.
 
-2. ![Image](
+2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20203533.jpg?raw=true)
 
-Explanation:
+Explanation: executing cd with a path to a directory as an argument will do as its supposed to and change directoies into lecture1 as written.
 
 3. ![Image](
 
