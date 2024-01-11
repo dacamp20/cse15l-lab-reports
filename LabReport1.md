@@ -11,43 +11,43 @@ For each of the commands cd, ls, and cat
 1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20155221.jpg?raw=true)
    ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20195959.jpg?raw=true)
 
-Explanation: 
+Explanation: executing cd with no arguments does nothing because its suposed to change diretory but with no argument there is no directory to change to. This is not an error.
 
-2.
+2. ![Image](
 
 Explanation:
 
-3. 
+3. ![Image](
 
 Explanation:
 
 ---
 ***ls:***
 
-1.
+1. ![Image](
 
 Explanation:
 
-2.
+2. ![Image](
 
 Explanation:
 
-3. 
+3. ![Image](
 
 Explanation:
 
 ---
 ***cat:***
 
-1.
+1. ![Image](
 
 Explanation:
 
-2.
+2. ![Image](
 
 Explanation:
 
-3. 
+3. ![Image](
 
 Explanation:
 
