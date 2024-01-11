@@ -15,11 +15,11 @@ Explanation: executing cd with no arguments does nothing because its suposed to 
 
 2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20203533.jpg?raw=true)
 
-Explanation: executing cd with a path to a directory as an argument will do as its supposed to and change directoies into lecture1 as written.
+Explanation: executing cd with a path to a directory as an argument will do as its supposed to and change directoies into lecture1 as written. This is not an error.
 
-3. ![Image](
+3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20211356.jpg?raw=true)
 
-Explanation:
+Explanation: executing cd with a path to a file as an argument results in a bash message that tells the user the file is not a dirctory. This is an error because the cd command is supposed to change directory and not change file.
 
 ---
 ***ls:***
