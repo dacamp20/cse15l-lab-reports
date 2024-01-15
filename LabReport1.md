@@ -39,15 +39,15 @@ Explanation:
 ---
 ***cat:***
 
-1. ![Image](
+1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195506.jpg?raw=true)
 
 Explanation:
 
-2. ![Image](
+2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195620.jpg?raw=true)
 
 Explanation:
 
-3. ![Image](
+3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195656.jpg?raw=true)
 
 Explanation:
 
