@@ -19,6 +19,7 @@ Explanation: executing cd with a path to a directory as an argument will change 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20211356.jpg?raw=true)
 
 Explanation: executing cd with a path to a file as an argument results in a bash message that tells the user the file is not a directory. This results to an error because the cd command expects a directory as an argument.
+
 ---
 ***ls:***
 
@@ -48,4 +49,5 @@ Explanation: Running the cat commmand with a path to a directory like lecture1 w
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195656.jpg?raw=true)
 
 Explanation: Running the cat command with a path to a file will print out and display the contents of the specified file and does not cause an error.
+
 ---
