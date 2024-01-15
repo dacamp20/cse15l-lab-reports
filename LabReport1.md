@@ -41,14 +41,14 @@ Explanation: Running the ls command with a path to a file with list out that fil
 
 1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195506.jpg?raw=true)
 
-Explanation:
+Explanation: Running the cat command with no argument will print out nothing at first and result in an error where the program will run until manually closed.
 
 2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195620.jpg?raw=true)
 
-Explanation:
+Explanation: Running the cat commmand with a path to a directory like lecture1 will result in an message alerting the user the argument is a directory and not a file but no error occurs.
 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195656.jpg?raw=true)
 
-Explanation:
+Explanation: Running the cat command with a path to a file will print out the text in the text file as intended with no errors.
 
 ---
