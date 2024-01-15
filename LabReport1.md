@@ -19,22 +19,22 @@ Explanation: executing cd with a path to a directory as an argument will do as i
 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20211356.jpg?raw=true)
 
-Explanation: executing cd with a path to a file as an argument results in a bash message that tells the user the file is not a dirctory. This is an error because the cd command is supposed to change directory and not change file.
+Explanation: executing cd with a path to a file as an argument results in a bash message that tells the user the file is not a directory. This is an error because the cd command is supposed to change directory and not change file.
 
 ---
 ***ls:***
 
 1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194621.jpg?raw=true)
 
-Explanation:
+Explanation: Running the ls command with no arguments will list out the current files in the directory that is being worked on. In this case the home directory has two files one is a lecture1 folder and the second is a text file. This prints out the files as intented with no errors.
 
 2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194809.jpg?raw=true)
 
-Explanation:
+Explanation: Running the ls command with a path to a directory will list out the files in that said directory. In this case the ls lecture1 command has printed a list of the files in the directory lecture1 as intented with no errors.
 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194925.jpg?raw=true)
 
-Explanation:
+Explanation: Running the ls command with a path to a file with list out that files name. In this case the ls hello.txt command listed out the file hello.txt as intented with no errors.
 
 ---
 ***cat:***
