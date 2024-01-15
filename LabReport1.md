@@ -24,15 +24,15 @@ Explanation: executing cd with a path to a file as an argument results in a bash
 ---
 ***ls:***
 
-1. ![Image](
+1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194621.jpg?raw=true)
 
 Explanation:
 
-2. ![Image](
+2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194809.jpg?raw=true)
 
 Explanation:
 
-3. ![Image](
+3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194925.jpg?raw=true)
 
 Explanation:
 
