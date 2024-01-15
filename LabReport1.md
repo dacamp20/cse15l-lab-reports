@@ -8,47 +8,44 @@ For each of the commands cd, ls, and cat
 ---
 ***cd:***
 
-1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20155221.jpg?raw=true)
-   ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20195959.jpg?raw=true)
+1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20203326.jpg?raw=true)
 
-Explanation: executing cd with no arguments does nothing because its suposed to change diretory but with no argument there is no directory to change to. This is not an error.
+Explanation: executing cd with no arguments will change the working dirctoy to the user's home directory. This is not an error.
 
 2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20203533.jpg?raw=true)
 
-Explanation: executing cd with a path to a directory as an argument will do as its supposed to and change directoies into lecture1 as written. This is not an error.
+Explanation: executing cd with a path to a directory as an argument will change the working directory to the specified directory. This is not an error.
 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20211356.jpg?raw=true)
 
-Explanation: executing cd with a path to a file as an argument results in a bash message that tells the user the file is not a directory. This is an error because the cd command is supposed to change directory and not change file.
-
+Explanation: executing cd with a path to a file as an argument results in a bash message that tells the user the file is not a directory. This results to an error because the cd command expects a directory as an argument.
 ---
 ***ls:***
 
 1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194621.jpg?raw=true)
 
-Explanation: Running the ls command with no arguments will list out the current files in the directory that is being worked on. In this case the home directory has two files one is a lecture1 folder and the second is a text file. This prints out the files as intented with no errors.
+Explanation: Running the ls command with no arguments will list out the current files and directories in the currect working directory. In this case the home directory has two files one is a lecture1 folder and the second is a text file. This prints out the files and directories as intented with no errors.
 
 2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194809.jpg?raw=true)
 
-Explanation: Running the ls command with a path to a directory will list out the files in that said directory. In this case the ls lecture1 command has printed a list of the files in the directory lecture1 as intented with no errors.
+Explanation: Running the ls command with a path to a directory will list out the files and directories in the specified directory. In this case the ls lecture1 command has printed a list of the files in the directory lecture1 as intented with no errors.
 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20194925.jpg?raw=true)
 
-Explanation: Running the ls command with a path to a file with list out that files name. In this case the ls hello.txt command listed out the file hello.txt as intented with no errors.
+Explanation: Running the ls command with a path to a file with list the specified file. In this case the ls hello.txt command listed out the file hello.txt as intented with no errors.
 
 ---
 ***cat:***
 
 1. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195506.jpg?raw=true)
 
-Explanation: Running the cat command with no argument will print out nothing at first and result in an error where the program will run until manually closed.
+Explanation: Running the cat command with no argument will wait for user input and does not cause an error.
 
 2. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195620.jpg?raw=true)
 
-Explanation: Running the cat commmand with a path to a directory like lecture1 will result in an message alerting the user the argument is a directory and not a file but no error occurs.
+Explanation: Running the cat commmand with a path to a directory like lecture1 will result in an error message alerting the user the argument is a directory and not a file as expected so an error does occur here.
 
 3. ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-14%20195656.jpg?raw=true)
 
-Explanation: Running the cat command with a path to a file will print out the text in the text file as intended with no errors.
-
+Explanation: Running the cat command with a path to a file will print out and display the contents of the specified file and does not cause an error.
 ---
