@@ -33,3 +33,4 @@ For each of the two examples, describe:
 - The relevant arguments to those methods and the values of any revelant fields of the class are `https://0-0-0-0-6789-62cva0863i62omk16i5h7tmq4s.us.edusercontent.com/add-message` which is the full URL recieved as an HTTP request and the `s=Hello how are you&user=Rob` is the query part of the URL which contains key-value pairs seperated by "&". The `s=Hello how are you&user=Rob` contains the parameters along with their values `"s" = Hello how are you` and `"user" = Rob`.
 - The values of the revelant fields of the class change by updating the `chatMessages` field with a new message `Rob: Hello how are you\n` because the parameters are `"s" = Hello how are you` and `"user" = Rob`.
 
+---
