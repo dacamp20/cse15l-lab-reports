@@ -1,6 +1,11 @@
 # Lab Report 2
 
 ---
+My ChatServer code:
+
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-28%20004714.jpg?raw=true)
+
+---
 
 For each of the two examples, describe:
 
