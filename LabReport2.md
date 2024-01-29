@@ -1,5 +1,7 @@
 # Lab Report 2
 
+**Part #1:**
+
 ---
 My ChatServer code:
 
@@ -34,3 +36,28 @@ For each of the two examples, describe:
 - The values of the revelant fields of the class change by updating the `chatMessages` field with a new message `Rob: Hello how are you\n` because the parameters are `"s" = Hello how are you` and `"user" = Rob`.
 
 ---
+
+**Part 2:**
+
+Using the command line, show with ls and take screenshots of:
+
+- The absolute path to the private key for your SSH key for logging into ieng6:
+  
+  `ls /c/Users/danca/.ssh/id_rsa`
+  
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-29%20142605.jpg?raw=true)
+
+- The absolute path to the public key for your SSH key for logging into ieng6:
+  
+    `ls /home/linux/ieng6/oce/80/dacampuzano/.ssh/authorized_keys`
+  
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-29%20142803.jpg?raw=true)
+
+- A terminal interaction where you log into your ieng6 account without being asked for a password:
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/Screenshot%202024-01-29%20142859.jpg?raw=true)
+
+---
+
+**Part 3:**
+
+In weeks 2 and 3 of the lab, I learned to create a Java file named SearchEngine.java to implement a web server capable of tracking a list of strings. This server supports paths for adding new strings to the list and querying the list to return all strings containing a given substring. Additionally, I gained knowledge in developing a web server named ChatServer.java that manages user input messages, keeping track of a single string updated by incoming requests along with the user who wrote each message. Furthermore, I acquired skills in setting up SSH keys for easy access and learned about two new commands `scp` and `mkdir` as well as their functionality.
