@@ -61,3 +61,5 @@ Using the command line, show with ls and take screenshots of:
 **Part 3:**
 
 In weeks 2 and 3 of the lab, I learned to create a Java file named SearchEngine.java to implement a web server capable of tracking a list of strings. This server supports paths for adding new strings to the list and querying the list to return all strings containing a given substring. Additionally, I gained knowledge in developing a web server named ChatServer.java that manages user input messages, keeping track of a single string updated by incoming requests along with the user who wrote each message. Furthermore, I acquired skills in setting up SSH keys for easy access and learned about two new commands `scp` and `mkdir` as well as their functionality.
+
+---
