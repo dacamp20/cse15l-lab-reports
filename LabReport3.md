@@ -109,7 +109,8 @@ technical/emptyFile.txt
 
 
 ```
-
+$ find technical/ -type d -empty
+technical/emptyFolder
 ```
 
 3.
