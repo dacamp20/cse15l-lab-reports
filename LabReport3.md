@@ -63,7 +63,8 @@ During the for loop of the original code for reverseInPlace, the element at the 
 
 Using find and its different option on the command line:
 
-1. 
+1.
+
 - `find <path> -type f`
 
 ```
