@@ -2,7 +2,7 @@
 
 **Part 1:**
 
-A failure-inducing input for the buggy program:
+A failure-inducing input for the buggy `reverseInPlace` program:
 
 ```
 @Test
