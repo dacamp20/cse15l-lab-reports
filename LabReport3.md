@@ -89,6 +89,8 @@ technical/911report/preface.txt
 
 The `-type` option in `find` specifies the type of file to search for, f is for regular files. This is helpful when you want to find specific files such as text files, images, or executables.
 
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
 - `find <path> -type d`
 
 ```
@@ -103,6 +105,7 @@ technical/government/Post_Rate_Comm
 ```
 The `-type` option in `find` specifies the type of file to search for, d is for directories. This is useful when you want to locate specific directories or perform operations on directories.
 
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 
 2.
@@ -113,12 +116,18 @@ technical/emptyFile.txt
 ```
 The `-empty` option in the `find` command is used to search for files and directories that are empty, meaning they contain no data. You can use `-empty` to find and remove empty files or directories that are consuming disk space unnecessarily.
 
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
+
 - `find <path> -type d -empty`
 ```
 $ find technical/ -type d -empty
 technical/emptyFolder
 ```
 The `-empty` option in the `find` command is used to search for files and directories that are empty, meaning they contain no data. You can use `-empty` to check for unexpectedly empty directories or files, which might indicate issues 
+
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
 
 3.
 
@@ -132,6 +141,8 @@ technical/modifiedFiveDaysAgo
 ```
 The `-mtime` option in the `find` command is used to search for files based on their modification time. You can use `-mtime -N` to find files that were modified within N days.
 
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
 - `find <path> -mtime -1`
 ```
 $ find technical/ -mtime -1
@@ -140,6 +151,8 @@ technical/emptyFile.txt
 technical/emptyFolder
 ```
 The `-mtime` option in the `find` command is used to search for files based on their modification time. To find files that were modified within the last N days, you can use `-mtime -N`. 
+
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 
 4.
@@ -154,6 +167,7 @@ technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
 The command `find <path> -type f -print` is used to find and print the paths of regular files within the specified directory path and its subdirectories. You can use this when managing backups or creating archives, you might want to list all files within a directory structure to include them in the backup or archive.
 
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 - `find <path> -type d -print`
 ```
@@ -172,3 +186,7 @@ technical/government/Post_Rate_Comm
 technical/plos
 ```
 The command `find <path> -type d -print` is used to find and print the paths of directories within the specified directory path and its subdirectories. You can use this command to perform operations on directories, such as listing their contents, inspecting their structure, or performing maintenance tasks.
+
+[Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
+---
