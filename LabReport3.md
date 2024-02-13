@@ -116,21 +116,44 @@ technical/emptyFolder
 3.
 
 ```
-
+$ find technical/ -mtime -5
+technical/
+technical/emptyFile.txt
+technical/emptyFolder
+technical/modifiedFiveDaysAgo
 ```
 
 
 ```
-
+$ find technical/ -mtime -1
+technical/
+technical/emptyFile.txt
+technical/emptyFolder
 ```
 
 4.
 
 ```
-
+$ find technical/government/Alcohol_Problems/ -type f -print
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt
+technical/government/Alcohol_Problems/Session2-PDF.txt
+technical/government/Alcohol_Problems/Session3-PDF.txt
+technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
 
 
 ```
-
+$ find technical/ -type d -print
+technical/
+technical/911report
+technical/biomed
+technical/emptyFolder
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
 ```
