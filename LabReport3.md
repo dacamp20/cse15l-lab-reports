@@ -156,7 +156,7 @@ technical/emptyFile.txt
 technical/emptyFolder
 technical/modifiedFiveDaysAgo
 ```
-The `-mtime` option in the `find` command is used to search for files based on their modification time, I created a modified 5 days ago file, 5 days ago, to show the difference between the `-mtime -5` and `-mtime -1` because I didnt want to list out the whole technical directory that was modified in the same day and all its text files that are hundreds of lines long. You can use `-mtime -N` to find files that were modified within N days.
+The `-mtime` option in the `find` command is used to search for files based on their modification time, I created a modified 5 days ago file, 5 days ago, to show the difference between the `-mtime -5` and `-mtime -1` because I didnt want to list out the whole `technical` directory that was modified in the same day and all its text files that are hundreds of lines long. You can use `-mtime -N` to find files that were modified within N days.
 
 [Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
