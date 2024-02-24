@@ -9,7 +9,7 @@ Screenshot:
 
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s4.jpg?raw=true)
 
-Keys pressed: `<up><enter>` `<up><up><enter>`
+Keys pressed: `<up><enter>`, `<up><up><enter>`
 
 Explanation: The `ssh dacampuzano@ieng6.ucsd.edu` was one up in the search history. Then the `cs15lwi24` was two up in the search history so I accessed them using the `<up>` and `<enter>` keys.
 
@@ -20,7 +20,7 @@ Screenshot:
 
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s5.jpg?raw=true)
 
-Keys pressed: `git clone <Ctrl-v>` `ls` `cd l<tab>` `ls`
+Keys pressed: `git clone <Ctrl-v>`, `ls`, `cd l<tab>`, `ls`
 
 Explanation: I copied the ssh url from my fork of the repository and used `Ctrl-v` keys to paste it into the command line. Then I use `ls` to view if it was added properly then I changed my directory to `lab7` using `l<tab>` to auto complete the `lab7` directory I was serching for. Finally I used `ls` again to view the `test.sh` file is there with the rest of the files.
 
@@ -43,7 +43,7 @@ Screenshot:
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s7.1.jpg?raw=true)
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s7.2.jpg?raw=true)
 
-Keys pressed: `vim L<tab>.java` `44<shift>g` `e` `x` `i` `2` `Esc` `<shift>;wq`
+Keys pressed: `vim L<tab>.java`, `44<shift>g`, `e`, `x`, `i`, `2`, `Esc`, `<shift>;wq`
 
 Explanation: I use `vim L<tab>.java` to auto complete the `ListExamples.java` file. Then I use `44<shift>g` to access the 44th line of the code that contains the error. Then I use `e` to get to the last character of the first word which is `index1`. Then I use the `x` key to delete the last charcter of the word, which is 1. Then I used the `i` key to go into insert mode. Then I type in `2` to fix the error. Then I use `Esc` to exit insert mode. Finally I use the `<shift>;wq` keys to enter `:wq` to save and quit.
 
@@ -66,7 +66,7 @@ Screenshot:
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s9.1.jpg?raw=true)
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s9.2.jpg?raw=true)
 
-Keys pressed: `git add .` `git commit -m "updated"` `git push`
+Keys pressed: `git add .`, `git commit -m "updated"`, `git push`
 
 Explanation: I use the `git add .` keys to add all my changes from my current directory to the staging area. Then I used the `git commit -m "updated"` keys to create a new commit with the changes in my staging area along with a commit message of "updated". Finally I use the `git push` keys to push and upload my commited changes from my local repository to the remote repository on GitHub.
 
