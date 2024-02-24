@@ -35,10 +35,10 @@ Explanation:
 
 
 **Step 7: Edit the code file to fix the failing test**
-![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s7.1.jpg?raw=true)
-![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s7.2.jpg?raw=true)
 
 Screenshot:
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s7.1.jpg?raw=true)
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s7.2.jpg?raw=true)
 
 Keys pressed: `vim L<tab>.java` `44<shift>g` `e` `x` `i` `2` `Esc` `<shift>;wq`
 
@@ -48,8 +48,9 @@ Explanation:
 **Step 8: Run the tests, demonstrating that they now succeed**
 
 Screenshot:
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s8.jpg?raw=true)
 
-Keys pressed: 
+Keys pressed: `bash t<tab>`
 
 Explanation:
 
@@ -57,8 +58,10 @@ Explanation:
 **Step 9: Commit and push the resulting change to your Github account**
 
 Screenshot:
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s9.1.jpg?raw=true)
+![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/s9.2.jpg?raw=true)
 
-Keys pressed: 
+Keys pressed: `git add .` `git commit -m "updated"` `git push`
 
 Explanation:
 
