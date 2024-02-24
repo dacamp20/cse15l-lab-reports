@@ -45,7 +45,7 @@ Screenshot:
 
 Keys pressed: `vim L<tab>.java` `44<shift>g` `e` `x` `i` `2` `Esc` `<shift>;wq`
 
-Explanation: I use `vim L<tab>.java` to auto complete the ListExamples java file. Then I use `44<shift>g` to access the 44th line of the code that contains the error. Then I use `e` to get to the end of the first word which is `index1`. Then I use the `x` key to delete the last charcter of the word, which is 1. Then I used the `i` key to go into insert mode. Then I type in `2` to fix the error. Then I use `Esc` to exit insert mode. Finally I use the `<shift>;wq` keys to enter `:wq` to save and quit.
+Explanation: I use `vim L<tab>.java` to auto complete the `ListExamples.java` file. Then I use `44<shift>g` to access the 44th line of the code that contains the error. Then I use `e` to get to the last character of the first word which is `index1`. Then I use the `x` key to delete the last charcter of the word, which is 1. Then I used the `i` key to go into insert mode. Then I type in `2` to fix the error. Then I use `Esc` to exit insert mode. Finally I use the `<shift>;wq` keys to enter `:wq` to save and quit.
 
 
 **Step 8: Run the tests, demonstrating that they now succeed**
@@ -68,6 +68,6 @@ Screenshot:
 
 Keys pressed: `git add .` `git commit -m "updated"` `git push`
 
-Explanation: I use the `git add .` keys to add my changes to the staging area. Then I used the `git commit -m "updated"` keys to commit the changes in my staging area with a commit message of "updated". Finally I use the `git push` keys to push my commited changes to the repository.
+Explanation: I use the `git add .` keys to add all my changes from my current directory to the staging area. Then I used the `git commit -m "updated"` keys to create a new commit with the changes in my staging area along with a commit message of "updated". Finally I use the `git push` keys to push and upload my commited changes from my local repository to the remote repository on GitHub.
 
 ---
