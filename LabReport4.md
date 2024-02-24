@@ -2,7 +2,7 @@
 
 **Part 1:**
 
-To do : Take a screenshot, and write down exactly which keys you pressed to get to that step. For special characters like <enter> or <tab>, write them in angle brackets with code formatting. Then, summarize the commands you ran and what the effect of those keypresses were.
+For each numbered step starting from when you log in, so steps 4-9, take a screenshot, and write down exactly which keys you pressed to get to that step. For special characters like <enter> or <tab>, write them in angle brackets with code formatting. Then, summarize the commands you ran and what the effect of those keypresses were.
 
 **Step 4: Log into ieng6**
 
@@ -23,7 +23,7 @@ Screenshot:
 
 Keys pressed: `git clone <Ctrl-v>` `ls` `cd l<tab>` `ls`
 
-Explanation: I copied the ssh url from my fork of the repository and used `Ctrl-v` keys to paste it into the command line. Then I `ls` to view if it was added properly then I changed my directory to `lab7` using `l<tab>` to auto complete the directory I was serching for. Finally I used `ls` again to view the `test.sh` file is there with the rest of the files.
+Explanation: I copied the ssh url from my fork of the repository and used `Ctrl-v` keys to paste it into the command line. Then I use `ls` to view if it was added properly then I changed my directory to `lab7` using `l<tab>` to auto complete the `lab7` directory I was serching for. Finally I used `ls` again to view the `test.sh` file is there with the rest of the files.
 
 
 **Step 6: Run the tests, demonstrating that they fail**
