@@ -43,19 +43,18 @@ static void reverseInPlace(int[] arr) {
 
 ```
 static void reverseInPlace(int[] arr) {
-    int[] temp = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      temp[i] = arr[arr.length - i - 1];
+    int length = arr.length;
+    for(int i = 0; i < length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[length - i - 1];
+      arr[length - i - 1] = temp
     }
-    for (int i = 0; i < arr.length; i += 1) {
-      arr[i] = temp[i];
-    }
-  }
+}
 ```
 
 Why the code adjustment fixed the bug:
 
-During the for loop of the original code for reverseInPlace, the element at the start of the list would get overwritted by the last element of that same list. To fix this I added a temporary array that would copy the elements from the original array into the new temporary array in reverse order, once the whole list is copied we now copy the temporary array back over to the original array in order to not overwrite the elements at the start.
+During the for loop of the original code for the `reverseInPlace` method, the element at the start of the list would get overwritted by the last element of that same list. To fix this I added a temporary variable in the for loop so that it correctly iterates through only one half of the array (i < n / 2). For each iteration, it performs a swap between the element at index i and its corresponding element from the end of the array (n - i - 1). This swapping mechanism effectively reverses the array in place, ensuring that all elements are correctly rearranged.
 
 ---
 
