@@ -113,6 +113,7 @@ https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 2.
 - `find <path> -type f -empty`
+  
 ```
 $ find technical/ -type f -empty
 technical/emptyFile.txt
@@ -124,6 +125,7 @@ https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 
 - `find <path> -type d -empty`
+  
 ```
 $ find technical/ -type d -empty
 technical/emptyFolder
@@ -136,6 +138,7 @@ https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 3.
 - `find <path> -mtime -1`
+
 ```
 $ find technical/ -mtime -1
 technical/
@@ -148,6 +151,7 @@ The `-mtime` option in the `find` command is used to search for files based on t
 https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 - `find <path> -mtime -5`
+
 ```
 $ find technical/ -mtime -5
 technical/
@@ -164,6 +168,7 @@ https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 4.
 
 - `find <path> -type f -print`
+
 ```
 $ find technical/government/Alcohol_Problems/ -type f -print
 technical/government/Alcohol_Problems/DraftRecom-PDF.txt
@@ -177,6 +182,7 @@ The command `find <path> -type f -print` is used to find and print the paths of 
 https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 - `find <path> -type d -print`
+
 ```
 $ find technical/ -type d -print
 technical/
