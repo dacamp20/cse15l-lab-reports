@@ -47,7 +47,7 @@ static void reverseInPlace(int[] arr) {
     for(int i = 0; i < length/2; i += 1) {
       int temp = arr[i];
       arr[i] = arr[length - i - 1];
-      arr[length - i - 1] = temp
+      arr[length - i - 1] = temp;
     }
 }
 ```
