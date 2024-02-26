@@ -45,7 +45,7 @@ Screenshot:
 
 Keys pressed: `vim L<tab>.java`, `44<shift>g`, `e`, `x`, `i`, `2`, `Esc`, `<shift>;wq`
 
-Explanation: I use `vim L<tab>.java` to auto complete the `ListExamples.java` file. Then I use `44<shift>g` to access the 44th line of the code that contains the error. Then I use `e` to get to the last character of the first word which is `index1`. Then I use the `x` key to delete the last charcter of the word, which is 1. Then I used the `i` key to go into insert mode. Then I type in `2` to fix the error. Then I use `Esc` to exit insert mode. Finally I use the `<shift>;wq` keys to enter `:wq` to save and quit.
+Explanation: I use `vim L<tab>.java` to auto complete the `ListExamples.java` file. Then I use `44<shift>g` to access the 44th line of the code that contains the error. Then I use `e` to get to the last character of the first word which is `index1`. Then I use the `x` key to delete the last charcter of the word, which is `1`. Then I used the `i` key to go into insert mode. Then I type in `2` to fix the error. Then I use `Esc` to exit insert mode. Finally I use the `<shift>;wq` keys to enter `:wq` to save and quit.
 
 
 **Step 8: Run the tests, demonstrating that they now succeed**
