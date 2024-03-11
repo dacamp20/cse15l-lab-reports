@@ -59,9 +59,9 @@ Setup Information:
 
 File & Directory Structure:
 
-Main.java
+`Main.java`
 
-run.sh
+`run.sh`
 
 Contents of Main.java Before Fixing the Bug:
 
@@ -77,7 +77,7 @@ Full Command Line to Trigger the Bug:
 
 Description of What to Edit to Fix the Bug:
 
-In the Main.java file, make sure to update the count variable inside the loop to prevent an infinite loop. Add count++ or any appropriate update statement inside the loop body to ensure that the loop condition eventually becomes false and the loop terminates.
+In the Main.java file, make sure to update the count variable inside the loop to prevent an infinite loop. Add `count++` or any appropriate update statement inside the loop body to ensure that the loop condition eventually becomes false and the loop terminates.
 
 ---
 
