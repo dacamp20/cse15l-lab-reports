@@ -82,7 +82,6 @@ In the Main.java file, make sure to update the count variable inside the loop to
 ---
 
 **Part 2:**
-
-
+One of the most valuable things I learned in the second part of this quarter was how to use the Java debugger, JDB, to analyze and debug code effectively. It allowed me to step through my Java programs, inspect variables, and identify the root causes of bugs more efficiently. Additionally, crafting Bash scripts to automate routine processes introduced me to the power of scripting, enhancing my understanding of shell programming and its practical applications in software development.
 
 ---
