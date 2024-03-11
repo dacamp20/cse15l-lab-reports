@@ -2,6 +2,8 @@
 
 **Part 1:**
 
+---
+
 Original Post from Student:
 
 Title: Need help debugging infinite loop in Java program
@@ -21,6 +23,7 @@ Here's the screenshot of the output:
 
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/lr5-3.jpg?raw=true) 
 
+---
 
 Response from TA:
 
@@ -29,6 +32,8 @@ Hi there,
 Thanks for reaching out! It sounds like you might indeed be encountering an issue with your loop condition. Have you tried adding some print statements inside the loop to see what's happening?
 
 Additionally, you might want to try running your program with a debugger to step through the code and see where it's getting stuck.
+
+---
 
 Student's Follow-Up Post:
 
@@ -47,6 +52,8 @@ Description of Bug:
 It looks like my loop condition is never being satisfied, causing the program to get stuck in an infinite loop. Specifically, the variable I'm using to control the loop is not being updated correctly within the loop body.
 
 I'll need to fix this by ensuring that the loop variable is properly updated so that the loop can terminate when it should. Thanks for pointing me in the right direction!
+
+---
 
 Setup Information:
 
