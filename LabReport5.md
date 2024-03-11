@@ -63,11 +63,11 @@ File & Directory Structure:
 
 `run.sh`
 
-Contents of Main.java Before Fixing the Bug:
+Contents of `Main.java` Before Fixing the Bug:
 
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/lr5-4.jpg?raw=true)
 
-Contents of run.sh:
+Contents of `run.sh`:
 
 ![Image](https://github.com/dacamp20/cse15l-lab-reports/blob/main/lr5-2.jpg?raw=true)
 
